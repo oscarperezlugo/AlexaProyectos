@@ -2,6 +2,7 @@ C:\Users\Oscar\source\repos\AlexaProyectos\AlexaProyectos\bin\Release\netstandar
 C:\Users\Oscar\source\repos\AlexaProyectos\AlexaProyectos\bin\Release\netstandard2.0\AlexaProyectos.dll
 C:\Users\Oscar\source\repos\AlexaProyectos\AlexaProyectos\bin\Release\netstandard2.0\ref\AlexaProyectos.dll
 C:\Users\Oscar\source\repos\AlexaProyectos\AlexaProyectos\bin\Release\netstandard2.0\AlexaProyectos.pdb
+C:\Users\Oscar\source\repos\AlexaProyectos\AlexaProyectos\obj\Release\netstandard2.0\AlexaProyectos.csprojAssemblyReference.cache
 C:\Users\Oscar\source\repos\AlexaProyectos\AlexaProyectos\obj\Release\netstandard2.0\App.xaml.g.cs
 C:\Users\Oscar\source\repos\AlexaProyectos\AlexaProyectos\obj\Release\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Oscar\source\repos\AlexaProyectos\AlexaProyectos\obj\Release\netstandard2.0\AlexaProyectos.AssemblyInfoInputs.cache
@@ -10,4 +11,3 @@ C:\Users\Oscar\source\repos\AlexaProyectos\AlexaProyectos\obj\Release\netstandar
 C:\Users\Oscar\source\repos\AlexaProyectos\AlexaProyectos\obj\Release\netstandard2.0\AlexaProyectos.dll
 C:\Users\Oscar\source\repos\AlexaProyectos\AlexaProyectos\obj\Release\netstandard2.0\ref\AlexaProyectos.dll
 C:\Users\Oscar\source\repos\AlexaProyectos\AlexaProyectos\obj\Release\netstandard2.0\AlexaProyectos.pdb
-C:\Users\Oscar\source\repos\AlexaProyectos\AlexaProyectos\obj\Release\netstandard2.0\AlexaProyectos.csprojAssemblyReference.cache

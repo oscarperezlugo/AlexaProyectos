@@ -3,9 +3,12 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "AlexaProyectos.Android.dll" comes first in this list. */
 		"AlexaProyectos.Android.dll",
+		"Acr.UserDialogs.dll",
 		"AlexaProyectos.dll",
+		"AndHUD.dll",
 		"FastAndroidCamera.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",

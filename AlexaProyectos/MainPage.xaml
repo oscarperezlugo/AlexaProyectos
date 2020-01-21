@@ -49,7 +49,7 @@
             <Label Text="Indique si es Cargo o Devolucion" Grid.Row="11" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Start" Grid.ColumnSpan="2" FontSize="Micro" TextColor="Black"/>
             <Label x:Name="Articulo" Text="{Binding Result}" Grid.Row="12" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" Grid.ColumnSpan="2" FontSize="Medium" TextColor="Black"/>
             <Button Command="{Binding ButtonCommand}" Text="SCAN" BackgroundColor="Black" CornerRadius="30" VerticalOptions="Center" HorizontalOptions="Fill" Grid.Column="0" Grid.Row="13" Grid.ColumnSpan="2" TextColor="White" FontAttributes="Bold" />
-            <Button Text="CREAR REGISTRO" BackgroundColor="Black" CornerRadius="30" VerticalOptions="Center" HorizontalOptions="Fill" Grid.Column="0" Grid.Row="14" Grid.ColumnSpan="2" TextColor="White" FontAttributes="Bold" />
+            <Button Text="CREAR REGISTRO" BackgroundColor="Black" CornerRadius="30" VerticalOptions="Center" HorizontalOptions="Fill" Grid.Column="0" Grid.Row="14" Grid.ColumnSpan="2" TextColor="White" FontAttributes="Bold" Clicked="Registro_Clicked"/>
         </Grid>
     </StackLayout>
 

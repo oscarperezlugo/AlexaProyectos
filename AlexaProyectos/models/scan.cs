@@ -15,4 +15,15 @@ namespace AlexaProyectos.models
         public string fecha { get; set; }
 
     }
+    public class Send
+    {
+        public string CodigoProyecto { get; set; }
+        public string AnaCapitulo { get; set; }
+        public string AnaLote { get; set; }
+    }
+    public class Retorno
+    {
+        public string retorno { get; set; }
+        public string message { get; set; }
+    }
 }
