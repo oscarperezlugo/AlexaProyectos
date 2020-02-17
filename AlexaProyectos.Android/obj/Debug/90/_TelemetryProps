@@ -1,4 +1,4 @@
-AndroidUseAapt2=True
+AndroidUseAapt2=False
 UseSharedRuntime=false
 UseFastDeployment=false
 EnableMultidex=false

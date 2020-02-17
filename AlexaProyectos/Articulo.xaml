@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewmodels="clr-namespace:AlexaProyectos.viewmodels"
+             mc:Ignorable="d"
+             x:Class="AlexaProyectos.Articulo">
+    <ContentPage.BindingContext>
+        <viewmodels:MainPageViewModel />
+    </ContentPage.BindingContext>
+    <StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="desc" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center"  FontSize="Medium" TextColor="Black"/>
+            <Label x:Name="tipo" Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center"  FontSize="Medium" TextColor="Black"/>
+            <Label x:Name="precio" Grid.Row="2" VerticalOptions="Center" HorizontalOptions="Center"  FontSize="Medium" TextColor="Black"/>
+            <Label x:Name="factor" Grid.Row="3" VerticalOptions="Center" HorizontalOptions="Center"  FontSize="Medium" TextColor="Black"/>
+            <Label x:Name="precioventa" Grid.Row="4" VerticalOptions="Center" HorizontalOptions="Center"  FontSize="Medium" TextColor="Black"/>
+            <Button Text="REGISTRO" BackgroundColor="Black" CornerRadius="30" VerticalOptions="Center" HorizontalOptions="Fill" Grid.Row="5" TextColor="White" FontAttributes="Bold" Clicked="Registro_Clicked"/>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

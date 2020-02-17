@@ -1,8 +1,10 @@
 ﻿
+using Acr.UserDialogs;
 using Android.App;
 using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
+using Plugin.CurrentActivity;
 
 namespace AlexaProyectos.Droid
 {
@@ -14,12 +16,14 @@ namespace AlexaProyectos.Droid
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
+            CrossCurrentActivity.Current.Init(this, savedInstanceState);
+            UserDialogs.Init(this);
 
             base.OnCreate(savedInstanceState);
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-
+            
             LoadApplication(new App());
             global::ZXing.Net.Mobile.Forms.Android.Platform.Init();
         }

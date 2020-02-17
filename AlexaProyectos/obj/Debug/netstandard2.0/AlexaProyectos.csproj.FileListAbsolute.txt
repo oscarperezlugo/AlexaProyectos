@@ -11,3 +11,4 @@ C:\Users\Oscar\source\repos\AlexaProyectos\AlexaProyectos\obj\Debug\netstandard2
 C:\Users\Oscar\source\repos\AlexaProyectos\AlexaProyectos\obj\Debug\netstandard2.0\ref\AlexaProyectos.dll
 C:\Users\Oscar\source\repos\AlexaProyectos\AlexaProyectos\obj\Debug\netstandard2.0\AlexaProyectos.pdb
 C:\Users\Oscar\source\repos\AlexaProyectos\AlexaProyectos\obj\Debug\netstandard2.0\AlexaProyectos.csprojAssemblyReference.cache
+C:\Users\Oscar\source\repos\AlexaProyectos\AlexaProyectos\obj\Debug\netstandard2.0\Articulo.xaml.g.cs
